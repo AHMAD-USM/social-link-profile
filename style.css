@@ -50,7 +50,7 @@ h1{
 }
 
 h6{
-    color: rgba(213, 235, 17, 0.932);
+    color:  hsl(75, 94%, 57%);
 }
 h1,h6{
     margin: 0;
@@ -91,6 +91,11 @@ button{
     cursor: pointer;
     width: 250px;
     height: 30px;
+}
+
+button:hover{
+    background-color:  hsl(75, 94%, 57%);
+    color: black;
 }
 
 .buttons_container{
